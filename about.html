@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styl.css">
+    <title>News App</title>
+</head>
+<body>
+    
+    <section class="heor">
+        <div class="heading">
+            <h1>About Us</h1>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h2>Welcome to Our Website</h2>
+                <p>Discover the latest trends and innovations in technology,News and more. Our team of experts brings you the best content and insights to help you stay ahead of the curve.</p>
+                 <button class="cta-button">Learn More</button>
+            </div>
+            <div class="hero-image">
+                <img src="images/NewsTeam.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get the "Learn More" button
+            const learnMoreButton = document.querySelector(".cta-button");
+
+            // Add click event listener to the button
+            learnMoreButton.addEventListener("click", function() {
+                // Replace this with whatever action you want to take when the button is clicked
+                alert("You clicked the 'Learn More' button!");
+            });
+        });
+    </script>
+</body>
+</html>

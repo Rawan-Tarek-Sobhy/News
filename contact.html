@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    <nav>
+        <div class="main-nav container flex">
+            <a href="#" onclick="reload()" class="company-logo">
+                <img src="https://imgs.search.brave.com/-c3mRpPiPL-IkCZVSnI6w25ibXCSN5wF9z8tcNx4qzQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA1LzA4LzA2LzE4/LzM2MF9GXzUwODA2/MTg0MF9xM3pIMVo0/TWJnR2xXTTVvYUpt/VkpUdUR4b09teE4z/bi5qcGc" alt="company logo">
+            </a>
+            <div class="nav-links">
+                <ul class="flex">
+                    <li><a class="hover-link nav-item" id="politics" href="home.html">Home</a></li>
+                    <li><a class="hover-link nav-item" id="politics" href="index.html">News</a></li>
+                    <li><a class="hover-link nav-item" id="politics" href="about.html">About</a></li>
+                    <li><a class="hover-link nav-item" id="politics" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Get in touch</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="1b548282-692a-4fd1-9054-71c60b5db758">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit <img src="arrow_icon.png" alt=""></button>
+        </form>
+        <div class="contact-right">
+            <img src="right_img.png" alt="">
+
+
+        </div>
+
+    </div>
+</body>
+</html>
